@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     # steps: the linear sequence of operations that make up a job
     steps:
-      - uses: actions/checkout@v1
-      - uses: ./action-a
+    - uses: actions/checkout@v1
+    - uses: ./action-a
       env: # specify the environment variables
         MY_NAME: "Mona"
